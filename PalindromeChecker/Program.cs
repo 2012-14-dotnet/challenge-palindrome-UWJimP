@@ -26,11 +26,11 @@ namespace PalindromeChecker
                 bool result = CheckString.CheckPalindrome(userInput);
                 if(result)
                 {
-                    Console.WriteLine($"{userInput} is a Palindrome.");
+                    Console.WriteLine($"{userInput.Trim()} is a Palindrome.");
                 }
                 else
                 {
-                    Console.WriteLine($"{userInput} is NOT a Palindrome.");
+                    Console.WriteLine($"{userInput.Trim()} is NOT a Palindrome.");
                 }
                 confirmationInput = ConfirmationInput();
             }
