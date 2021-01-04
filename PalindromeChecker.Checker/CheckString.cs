@@ -1,8 +1,9 @@
 ﻿using System;
+using System.Linq;
 
 namespace PalindromeChecker.Checker
 {
-    public class Checker
+    public class CheckString
     {
         public static bool CheckPalindrome(string sentence)
         {
